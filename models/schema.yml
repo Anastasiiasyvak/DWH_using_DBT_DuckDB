@@ -1,0 +1,97 @@
+version: 2
+
+models:
+  - name: mart_client_spending
+    description: "Model for clients' average spending"
+    columns:
+      - name: client_id
+        description: "Client ID"
+        tests:
+          - unique
+          - not_null
+      - name: full_client_name
+        description: "Full client name"
+        tests:
+          - not_null
+      - name: total_orders
+        description: "Total number of client's orders"
+        tests:
+          - not_null
+      - name: total_spent
+        description: "Total spending amount of the client"
+        tests:
+          - not_null
+      - name: avg_spent_per_order
+        description: "Client's average spending per order"
+        tests:
+          - not_null
+
+  - name: mart_guide_performance
+    description: "Model for guides' performance"
+    columns:
+      - name: guide_id
+        description: "Guide ID"
+        tests:
+          - unique
+          - not_null
+      - name: full_guide_name
+        description: "Full guide name"
+        tests:
+          - not_null
+      - name: total_orders
+        description: "Total number of orders handled by the guide"
+        tests:
+          - not_null
+
+  - name: mart_month_info
+    description: "Model for the number of orders and clients' average spending per month"
+    columns:
+      - name: month
+        description: "Order month"
+        tests:
+          - not_null
+      - name: total_orders
+        description: "Total number of orders for the month"
+        tests:
+          - not_null
+      - name: avg_spent_per_client
+        description: "Average spending per client for the month"
+        tests:
+          - not_null
+
+  - name: mart_sales_for_tour
+    description: "Model for total sales per tour"
+    columns:
+      - name: tour_name
+        description: "Tour name"
+        tests:
+          - not_null
+      - name: total_sales_amount
+        description: "Total sales amount for the tour"
+        tests:
+          - not_null
+      - name: total_orders
+        description: "Total number of orders for the tour"
+        tests:
+          - not_null
+
+  - name: mart_tour_availability_summary
+    description: "Model for tour availability summary"
+    columns:
+      - name: tour_id
+        description: "Tour ID"
+        tests:
+          - unique
+          - not_null
+      - name: tour_name
+        description: "Tour name"
+        tests:
+          - not_null
+      - name: total_booked
+        description: "Total number of bookings for the tour"
+        tests:
+          - not_null
+      - name: available_spots
+        description: "Number of available spots for the tour"
+        tests:
+          - not_null
