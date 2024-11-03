@@ -23,6 +23,14 @@ seeds:
   +docs:
     node_color: '#cd7f32'
 
+  jaffle_shop:
+    raw_clients:
+      +column_types:
+        PHONE: string
+    raw_guides:
+      +column_types:
+        PHONE: string
+
 models:
   jaffle_shop:
     materialized: table

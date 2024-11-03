@@ -1,0 +1,51 @@
+ID,NAME,START_DATE,FINISH_DATE,PRICE,AVAILABILITY,DESCRIPTION,MAX_PARTICIPANTS,MIN_PARTICIPANTS
+6a7258e7-af04-41eb-ae34-52db17e95b23,Tour 1,2024-02-11,2024-09-30,1659.41,not available,Description for Tour 1,20,6
+4bae3d74-8f19-4a23-af8c-db4dfbee3782,Tour 2,2024-01-21,2024-07-23,2740.95,not available,Description for Tour 2,45,6
+3c3c611b-00a4-48b2-91d1-09119bbf32d2,Tour 3,2024-04-18,2024-07-12,2810.15,not available,Description for Tour 3,15,6
+6a2c8d5a-3374-4de1-a284-f590974bfee6,Tour 4,2024-05-01,2024-11-03,2839.13,available,Description for Tour 4,36,7
+c01a028f-ce51-4d81-b271-de3e5bb1d289,Tour 5,2024-05-24,2024-06-25,2280.25,not available,Description for Tour 5,48,8
+2360fa99-89ff-4e9a-9679-b14ef4bd8071,Tour 6,2024-03-20,2024-06-27,1889.2,not available,Description for Tour 6,47,10
+8db280ea-3d16-479a-b3ab-e551eb9e41b6,Tour 7,2024-01-08,2024-10-02,2561.03,not available,Description for Tour 7,48,8
+a3d84db1-afcc-427f-92c4-545d9f3cc77d,Tour 8,2024-05-18,2024-10-22,1006.56,available,Description for Tour 8,24,10
+47a2369d-6061-4413-ba60-4602dd77d607,Tour 9,2024-02-07,2024-06-16,2097.57,available,Description for Tour 9,44,8
+573643d3-e9db-4688-b75d-f5216f162edd,Tour 10,2024-04-19,2024-08-09,1521.11,available,Description for Tour 10,14,5
+65456d04-9094-4e53-bbe6-329b231a4e1a,Tour 11,2024-02-28,2024-06-30,2928.39,available,Description for Tour 11,31,3
+e8e23d0d-c036-4ea2-8917-d8258a2039e6,Tour 12,2024-01-27,2024-09-08,673.88,not available,Description for Tour 12,31,10
+ceb94965-ad46-4def-9761-71f8daa294f7,Tour 13,2024-04-25,2024-08-27,2417.0,available,Description for Tour 13,20,5
+f3be40ec-512e-4357-911f-ba5de9bcd78f,Tour 14,2024-01-18,2024-10-13,2142.77,available,Description for Tour 14,48,5
+fc844710-fe21-4a2f-927f-1f9511377860,Tour 15,2024-01-22,2024-09-07,1903.89,not available,Description for Tour 15,27,10
+b1d1b0f2-e4c3-4874-abff-440224c9bc5b,Tour 16,2024-05-11,2024-09-28,1658.71,not available,Description for Tour 16,30,6
+9a4a8ee4-891a-4e2e-b155-0072d861680b,Tour 17,2024-05-26,2024-11-12,943.54,available,Description for Tour 17,24,2
+0069aed8-9da8-469f-bb55-68a155fd7512,Tour 18,2024-02-18,2024-09-11,544.36,not available,Description for Tour 18,35,6
+0ebe8f3f-d415-48f4-a3f6-7846d04f3b38,Tour 19,2024-02-22,2024-09-11,878.65,not available,Description for Tour 19,23,9
+b2b31ecb-c1cc-458f-9fd1-1576718e14e7,Tour 20,2024-03-27,2024-09-13,1797.16,available,Description for Tour 20,12,1
+cc274e95-b082-497a-ac56-d2c0d228a94a,Tour 21,2024-05-28,2024-06-12,781.21,not available,Description for Tour 21,16,1
+a9ec7bc8-11ae-48d2-8df7-cc7c195954bf,Tour 22,2024-04-20,2024-07-06,2660.22,not available,Description for Tour 22,41,5
+4d3b198d-777e-4288-ab78-b40a67287564,Tour 23,2024-02-17,2024-06-10,836.02,not available,Description for Tour 23,14,2
+55904b0b-0d5a-4a56-8525-aa1d594d4104,Tour 24,2024-02-09,2024-07-09,2231.36,not available,Description for Tour 24,41,7
+b3522c60-321f-4eec-9ed0-b4c42c399307,Tour 25,2024-01-19,2024-11-09,1155.57,available,Description for Tour 25,25,9
+461726b7-d591-41c4-a685-0acc729cb1e2,Tour 26,2024-03-03,2024-11-29,758.45,not available,Description for Tour 26,27,4
+731b0524-f503-4e4b-a60e-5c37cebf2348,Tour 27,2024-04-01,2024-08-14,2495.94,not available,Description for Tour 27,18,8
+bb167bb7-ad0b-48ba-9885-a5395b0a22a3,Tour 28,2024-04-17,2024-07-14,2466.72,available,Description for Tour 28,45,10
+29942691-5fb6-4f9f-bfa7-3bd8cda6aa5a,Tour 29,2024-04-11,2024-10-04,2046.54,available,Description for Tour 29,28,2
+668689d2-920e-4d07-8c34-40c14af152b9,Tour 30,2024-04-01,2024-06-11,1298.59,not available,Description for Tour 30,24,2
+7cf67578-177f-4dd1-adff-be64d49be39b,Tour 31,2024-03-17,2024-07-13,2576.46,not available,Description for Tour 31,40,2
+6908964f-e8b3-45db-8649-c1897f17572e,Tour 32,2024-05-02,2024-08-14,1679.19,not available,Description for Tour 32,18,4
+86ac5c2f-f0e9-4162-a8e8-5cc7d325e749,Tour 33,2024-03-26,2024-10-25,1489.08,not available,Description for Tour 33,48,5
+2a96cc5d-4d20-4300-8170-08dfce26a65d,Tour 34,2024-02-03,2024-11-23,1433.68,not available,Description for Tour 34,24,3
+cbd56a06-612c-4c44-9859-a6c259121c74,Tour 35,2024-03-06,2024-12-21,775.9,available,Description for Tour 35,37,4
+39a1ff57-361a-4692-a0b0-e4024b8f984b,Tour 36,2024-05-16,2024-12-01,1650.0,available,Description for Tour 36,13,6
+b22a87b8-7385-43e1-be76-742269fc8c6d,Tour 37,2024-04-03,2024-10-18,2718.37,available,Description for Tour 37,31,2
+354f81de-420f-45e9-944f-e21bfe823c66,Tour 38,2024-05-26,2024-11-12,1249.97,not available,Description for Tour 38,39,2
+8b463be2-e619-41a8-801f-adacfbcb768c,Tour 39,2024-01-19,2024-07-27,2691.5,available,Description for Tour 39,10,3
+58b7b998-25f6-48e2-8f6c-418895f86ed0,Tour 40,2024-02-25,2024-10-23,2005.57,not available,Description for Tour 40,41,4
+bbd99bf7-4484-4864-8a5c-0076a0b9a993,Tour 41,2024-03-31,2024-08-23,1486.79,available,Description for Tour 41,10,7
+4ad14d93-8991-4c82-b30a-0ab51c0d0d53,Tour 42,2024-02-27,2024-12-09,2993.3,available,Description for Tour 42,32,6
+a254fde9-fc79-4e3c-8b5d-4d3071913af9,Tour 43,2024-01-29,2024-09-27,549.18,available,Description for Tour 43,13,2
+ad84ce8b-66e9-4ac4-aad6-6714cb96de87,Tour 44,2024-03-03,2024-06-14,1593.92,not available,Description for Tour 44,29,8
+fc14e9b2-b0bf-4f8f-901f-2e54d7cbffe6,Tour 45,2024-03-31,2024-06-07,2747.33,available,Description for Tour 45,26,5
+8623a0c4-d763-4efb-818b-c55fed40399f,Tour 46,2024-02-08,2024-06-10,2941.92,not available,Description for Tour 46,41,3
+cd4702e0-343f-4b3d-bb13-ce22f1e70da7,Tour 47,2024-04-07,2024-12-20,1670.3,available,Description for Tour 47,47,2
+accee423-d4c0-4300-aa31-3d66100eeb60,Tour 48,2024-05-21,2024-09-15,2700.02,available,Description for Tour 48,48,4
+015e4ab9-2fc1-46c2-a32e-84ae26a85dc9,Tour 49,2024-03-15,2024-07-03,1606.42,available,Description for Tour 49,30,3
+d4118115-5ec6-4a94-9002-3fcb79f3de83,Tour 50,2024-02-13,2024-10-21,2853.07,not available,Description for Tour 50,37,8
