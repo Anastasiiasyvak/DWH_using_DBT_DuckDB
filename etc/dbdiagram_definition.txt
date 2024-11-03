@@ -1,23 +1,66 @@
+Table tours {
+  id varchar(36) PK
+  name varchar(200)
+  start_date date
+  finish_date date
+  price decimal(10, 2)
+  availability enum('available', 'not available')
+  description varchar(500)
+  max_participants int
+  min_participants int
+}
+
+Table clients {
+  id varchar(36) PK
+  name varchar(200)
+  surname varchar(200)
+  email varchar(200)
+  phone varchar(50)
+}
+
 Table orders {
-  id int PK
-  user_id int
+  id varchar(36) PK
+  tour_id varchar(36)
+  client_id varchar(36)
   order_date date
-  status varchar
+  total_price decimal(10, 2)
 }
 
-Table payments {
-  id int
-  order_id int
-  payment_method int
-  amount int
+Table hotels {
+  id varchar(36) PK
+  name varchar(200)
+  country varchar(100)
+  address varchar(200)
+  rating decimal(2, 1)
 }
 
-Table customers {
-  id int PK
-  first_name varchar
-  last_name varchar
+Table guides {
+  id varchar(36) PK
+  name varchar(200)
+  surname varchar(200)
+  phone varchar(50)
+  email varchar(200)
 }
 
-Ref: orders.user_id > customers.id
+Table tour_hotels {
+  tour_id varchar(36)
+  hotel_id varchar(36)
+}
 
-Ref: payments.order_id > orders.id
+Table tour_guides {
+  tour_id varchar(36)
+  guide_id varchar(36)
+}
+
+Table client_details {
+  client_id varchar(36) PK
+  additional_info varchar(500)
+}
+
+Ref: orders.tour_id > tours.id
+Ref: orders.client_id > clients.id
+Ref: tour_hotels.tour_id > tours.id
+Ref: tour_hotels.hotel_id > hotels.id
+Ref: tour_guides.tour_id > tours.id
+Ref: tour_guides.guide_id > guides.id
+Ref: client_details.client_id > clients.id
